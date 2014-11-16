@@ -1,7 +1,7 @@
 duco
 ====
 
-Lorem Ipsum Illustration. Placeholder Illustrations for all kind of work
+Lorem Ipsum Illustration. Placeholder Illustrations for all kind of work by <ahref="http://marie-schweiz.de">Marie Schweiz</a>
 
 Because users and developers love illustrations i thought we could make our life easier with lorem ipsum illustrations. The repo contains images and one Adobe Illustrator source file sorted by topic like "food" or "landscape". In addition the folder and image is named by tags like "knife"
 
