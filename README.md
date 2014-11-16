@@ -10,6 +10,9 @@ Example: food_tomato_knife_vegtables.png file is available in 3 sizes:
 
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme%2C-info.png">
 
+Available illustrations
+==
+
 Food: Cake, Catering, Drink, Herbs, Meat, Knife
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-food-row.png">
 
