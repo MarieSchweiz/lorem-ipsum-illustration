@@ -19,9 +19,13 @@ Food: Cake, Catering, Drink, Herbs, Meat, Knife
 Landscapes: Beach, Bridge, Forest, Mountain-Forest, Stars...
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-landscape-row.png">
 
+Sport: Bike
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-sport-row.png">
+
 Planned: more Landscapes, Sports, Furniture, Office, Music.
 
-Developers with open source projects are invited to make their suggestions or write <a href="https://github.com/MarieSchweiz/lorum-ipsum-illustration/issues">issues</a>. Startups please hire an Designer.
+Developers with open source projects are invited to make their suggestions or write <a href="https://github.com/MarieSchweiz/lorum-ipsum-illustration/issues">issues</a>. 
+Startups please hire an Designer.
 
 cheers,
 marie.schweiz@gmail.com
