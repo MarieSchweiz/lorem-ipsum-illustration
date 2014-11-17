@@ -16,16 +16,27 @@ Available illustrations
 Food: Cake, Catering, Drink, Herbs, Meat, Knife
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-food-row.png">
 
-Landscapes: Beach, Bridge, Forest, Mountain-Forest, Stars...
+Landscapes:  Hills, Stars, Mountains, Forest, Bridge, Beach
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-landscape-row.png">
 
-Sport: Bike
+Sport: Bike, Swimming, Running, Yoga, Skiing
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-sport-row.png">
 
 Planned: more Landscapes, Sports, Furniture, Office, Music.
 
+Suggestions
+==
 Developers with open source projects are invited to make their suggestions or write <a href="https://github.com/MarieSchweiz/lorum-ipsum-illustration/issues">issues</a>. 
-Startups please hire an Designer.
+Startups: please hire a Designer.
 
 cheers,
 marie.schweiz@gmail.com
+Freelance UI and UX Designer, Berlin Germany
+
+Recolor
+==
+
+Because the sourcefile is attached and some people might like to play with it. Adobe Illustrator got one magic function you can use to recolor the whole picture in one step. Look out for the tiny wheel in the top bar and click on it -> sorry for the german language i will fix it soon.
+
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-recolor-icon.png">
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-recolor.png">
