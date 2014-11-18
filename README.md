@@ -18,6 +18,7 @@ Food: Cake, Catering, Drink, Herbs, Meat, Knife
 
 Landscapes:  Hills, Stars, Mountains, Forest, Bridge, Beach
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-landscape-row.png">
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-landscape-row2.png">
 
 Sport: Bike, Swimming, Running, Yoga, Skiing
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-sport-row.png">
@@ -26,11 +27,11 @@ Planned: more Landscapes, Sports, Furniture, Office, Music.
 
 Suggestions
 ==
-Developers with open source projects are invited to make their suggestions or write <a href="https://github.com/MarieSchweiz/lorum-ipsum-illustration/issues">issues</a>. 
+Developers with open source projects are invited to make their suggestions or write <a href="https://github.com/MarieSchweiz/lorum-ipsum-illustration/issues">issues</a>. </br>
 Startups: please hire a Designer.
 
-cheers,
-marie.schweiz@gmail.com
+cheers,</br>
+marie.schweiz@gmail.com</br>
 Freelance UI and UX Designer, Berlin Germany
 
 Recolor
