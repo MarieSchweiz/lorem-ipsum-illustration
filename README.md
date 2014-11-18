@@ -23,6 +23,9 @@ Landscapes:  Hills, Stars, Mountains, Forest, Bridge, Beach
 Sport: Bike, Swimming, Running, Yoga, Skiing
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-sport-row.png">
 
+Gifts: Wine, Flowers
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-gifts-row.png">
+
 Planned: more Landscapes, Sports, Furniture, Office, Music.
 
 Suggestions
