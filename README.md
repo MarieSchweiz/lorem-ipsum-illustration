@@ -1,9 +1,7 @@
 Lorem Ipsum Illustration
 ====
 
-Lorem Ipsum Illustration. Placeholder illustrations for all kind of work by <a href="http://marie-schweiz.de">Marie Schweiz</a>
-
-Because users and developers love illustrations i thought we could make our life easier with lorem ipsum illustrations. The repo contains images and one Adobe Illustrator source file sorted by topic like "food" or "landscape". In addition the folder and image is named by tags like "knife"
+Lorem ipsum illustrations by <a href="http://marie-schweiz.de">Marie Schweiz</a>. The repo contains images and one Adobe Illustrator source file sorted by topic like "food" or "landscape". In addition the folder and image is named by tags like "knife"
 
 Example: food_tomato_knife_vegtables.png file is available in 3 sizes:
 360px, 1080px and 1980px
@@ -25,6 +23,9 @@ Sport: Bike, Swimming, Running, Yoga, Skiing
 
 Gifts: Wine, Flowers
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-gifts-row.png">
+
+Activity:
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-activity-row.png">
 
 Planned: more Landscapes, Sports, Furniture, Office, Music.
 
