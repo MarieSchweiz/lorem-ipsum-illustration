@@ -27,6 +27,10 @@ Gifts: Wine, Flowers
 Activity:
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-activity-row.png">
 
+Space:
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-space-row.png">
+
+
 Planned: more Landscapes, Sports, Furniture, Office, Music.
 
 Suggestions
