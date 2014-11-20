@@ -3,7 +3,7 @@
 // Food Cake
 	{
 	"title": "Cake time",
-	"description":, "A piece of cake with coffee and milk",
+	"description": "A piece of cake with coffee and milk",
 	"filename": "food_cake_coffee_cream",
 	"created": "",
 	"updated": "",
@@ -25,7 +25,7 @@
 // Food Orange juice
 	{
 	"title": "Lemon and Lime",
-	"description":, "This juice is perfect",
+	"description": "This juice is perfect",
 	"filename": "food_drink_lemon_orange",
 	"created": "",
 	"updated": "",
@@ -52,7 +52,7 @@
 // Food Herbs
 	{
 	"title": "Herbs and scissor",
-	"description":, "Cut all the herbs",
+	"description": "Cut all the herbs",
 	"filename": "food_herbs_scissors_sage",
 	"created": "",
 	"updated": "",
