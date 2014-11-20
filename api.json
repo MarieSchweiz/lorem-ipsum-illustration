@@ -1,5 +1,30 @@
 [
 
+// Activity restaurant
+	{
+	"title": "Take me out",
+	"description": "Having good times together in the restaurant",
+	"filename": "activity_restaurant",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"restaurant", 
+		"night",
+		"food",
+		"dinner",
+		"meal"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"yellow",
+		"dark",
+		"blue"
+		],
+	}
+
 // Food Cake
 	{
 	"title": "Cake time",
@@ -12,12 +37,10 @@
 		"coffe",
 		"milk",
 		"food"
-	],
+		],
 	
 	"colors": [
-		{"color_light":"rgba(183,218,201,1)"},
-		{"color_medium": "rgba(255,229,164,1)"},
-		{"color_dark": "rgba(64,60,70,1)"},
+
 	],
 	"color_space_tag": ["pastell"],
 	}
@@ -36,13 +59,11 @@
 		"fruits",
 		"orange",
 		"food"
-	],
+		],
 	
 	"colors": [
-		{"color_light":"rgba(235,245,169,1)"},
-		{"color_medium": "rgba(255,191,74,1)"},
-		{"color_dark": "rgba(19,107,66,1)"},
-	],
+
+		],
 	"color_space_tag": [
 		"orange",
 		"yellow",
@@ -62,7 +83,7 @@
 		"cover",
 		"finger food",
 		"food"
-	],
+		],
 	
 	"colors": [
 
@@ -88,8 +109,7 @@
 		"laurel",
 		"garlic",
 		"food"
-
-	],
+		],
 	
 	"colors": [
 
@@ -113,8 +133,7 @@
 		"garlic",
 		"food",
 		"wooden plate"
-
-	],
+		],
 	
 	"colors": [
 
@@ -123,30 +142,7 @@
 		"red"
 		],
 	}
-// Gifts Flowers
-	{
-	"title": "Flowers for you",
-	"description": "Flowers are beautiful gifts",
-	"filename": "gifts_flower_rose",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"flower", 
-		"rose",
-		"plant"
 
-
-	],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"turkis",
-		"petrol",
-		"dark"
-		],
-	}
 // Gifts Flowers
 	{
 	"title": "Flowers for you",
@@ -159,10 +155,7 @@
 		"rose",
 		"plant",
 		"gift"
-
-
-
-	],
+		],
 	
 	"colors": [
 
@@ -186,9 +179,7 @@
 		"party",
 		"gift",
 		"light"
-
-
-	],
+		],
 	
 	"colors": [
 
@@ -211,8 +202,9 @@
 		"fall", 
 		"autunm",
 		"tree",
+		"landscape",
 		"bench"
-	],
+		],
 	
 	"colors": [
 
@@ -220,7 +212,8 @@
 	"color_space_tag": [
 		"orange",
 		"yellow",
-		"warm"
+		"warm",
+		"pastell"
 		],
 	}
 
@@ -236,8 +229,9 @@
 		"sand",
 		"sea",
 		"bush",
+		"landscape",
 		"horizon"
-	],
+		],
 	
 	"colors": [
 
@@ -257,8 +251,9 @@
 	"tags": [
 		"bridge", 
 		"sunset",
+		"landscape",
 		"plain"
-	],
+		],
 	
 	"colors": [
 
@@ -282,8 +277,9 @@
 		"river",
 		"stone",
 		"evergreen",
+		"landscape",
 		"grass"
-	],
+		],
 	
 	"colors": [
 
@@ -302,11 +298,12 @@
 	"created": "",
 	"updated": "",
 	"tags": [
-		"Mountain", 
+		"mountain", 
 		"tree",
 		"evergreen",
+		"landscape",
 		"sunset"
-	],
+		],
 	
 	"colors": [
 
@@ -317,5 +314,327 @@
 		"pink"
 		],
 	}
+
+// Landscape Mountain Night
+	{
+	"title": "Night has fallen",
+	"description": "The stars sprinkle over the black mountains",
+	"filename": "landscape_mountains_river_night",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"mountain", 
+		"river",
+		"star",
+		"stars",
+		"landscape",
+		"moon"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"green",
+		"blue",
+		"black",
+		"landscape",
+		"dark"
+		],
+	}
+
+// Landscape Hills
+	{
+	"title": "On the hill",
+	"description": "A tree on a hill with grass",
+	"filename": "landscape_tree_hill",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"hill", 
+		"grass",
+		"tree",
+		"arms",
+		"landscape",
+		"fog"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"green",
+		"blue"
+		],
+	}
+
+// Landscape park
+	{
+	"title": "Park trees",
+	"description": "Green trees in a park",
+	"filename": "landscape_tree_park",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"park", 
+		"grass",
+		"tree",
+		"landscape",
+		"arms"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"green",
+		"yellow",
+		"dark"
+		],
+	}
+// Landscape Winter
+	{
+	"title": "Winter",
+	"description": "Evergreen and bushes",
+	"filename": "landscape_winter_snow_tree",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"winter", 
+		"snow",
+		"tree",
+		"evergreen",
+		"berry",
+		"landscape",
+		"bush"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"blue",
+		"green",
+		"pastell"
+		],
+	}
+// Space Asteroids
+	{
+	"title": "Asteroids",
+	"description": "Asteroids everywhere",
+	"filename": "space_asteroid",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"asteroid", 
+		"field",
+		"space",
+		"evergreen",
+		"berry",
+		"bush"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"brown",
+		"green"
+		],
+	}
+
+]
+
+// Space Planets
+	{
+	"title": "Planetes",
+	"description": "A Planet and his Moon",
+	"filename": "space_planet",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"moon", 
+		"planet",
+		"space"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"red",
+		"orange",
+		"green",
+		"purple"
+		],
+	}
+
+// Space Rocket
+	{
+	"title": "Rocket",
+	"description": "a flying rocket",
+	"filename": "space_rocket",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"rocket", 
+		"cloud",
+		"space",
+		"fly"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"orange",
+		"white",
+		"brown"
+		],
+	}
+// Space Ship
+	{
+	"title": "Mark 2",
+	"description": "Viper Mark 2",
+	"filename": "space_rocket",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"ship", 
+		"vacuum",
+		"space",
+		"viper",
+		"battlestar",
+		"mark 2",
+		"fly",
+		"scifi",
+		"fighter"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"petrol",
+		"white",
+		"red",
+		"dark"
+		],
+	}	
+
+// Sport Bike
+	{
+	"title": "Racing bike",
+	"description": "On a beautiful day through a park",
+	"filename": "sport_bike_racing",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"bike",
+		"racing",
+		"fence",
+		"sport",
+		"park"],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"blue",
+		"white"
+		],
+	}	
+// Sport Running
+	{
+	"title": "Running",
+	"description": "After work running",
+	"filename": "sport_running_park",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"running",
+		"night",
+		"human",
+		"sport",
+		"park"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"blue"
+		],
+	}
+
+// Sport Skiing
+	{
+	"title": "Running",
+	"description": "After work running",
+	"filename": "sport_running_park",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"winter",
+		"mountain",
+		"evergreen",
+		"ski",
+		"sport",
+		"skiing"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"blue",
+		"red"
+		],
+	}	
+// Sport Swimming
+	{
+	"title": "Swimming",
+	"description": "Swimming in the pool",
+	"filename": "sport_swimming_race",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"pool",
+		"sport",
+		"swimming",
+		"indoor",
+		"racing"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"blue",
+		"yellow"
+		],
+	}	
+
+// Sport Swimming
+	{
+	"title": "Yoga",
+	"description": "Yoga every morning",
+	"filename": "sport_yoga_morning",
+	"created": "",
+	"updated": "",
+	"tags": [
+		"window",
+		"sport",
+		"indoor"
+		],
+	
+	"colors": [
+
+	],
+	"color_space_tag": [
+		"orange",
+		"yellow"
+		],
+	}	
 
 ]
