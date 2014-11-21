@@ -1,640 +1,520 @@
 [
-
-// Activity restaurant
 	{
-	"title": "Take me out",
-	"description": "Having good times together in the restaurant",
-	"file": "activity_restaurant",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"restaurant", 
-		"night",
-		"food",
-		"dinner",
-		"meal"
+		"title": "Take me out",
+		"description": "Having good times together in the restaurant",
+		"file": "activity_restaurant",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"restaurant", 
+			"night",
+			"food",
+			"dinner",
+			"meal"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"yellow",
-		"dark",
-		"blue"
-		],
-	}
-
-// Food Cake
+		"colors": [ ],
+		"color_space_tag": [
+			"yellow",
+			"dark",
+			"blue"
+		]
+	},
 	{
-	"title": "Cake time",
-	"description": "A piece of cake with coffee and milk",
-	"file": "food_cake_coffee_cream",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"cake", 
-		"coffe",
-		"milk",
-		"food"
+		"title": "Cake time",
+		"description": "A piece of cake with coffee and milk",
+		"file": "food_cake_coffee_cream",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"cake", 
+			"coffe",
+			"milk",
+			"food"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": ["pastell"],
-	}
-
-// Food Orange juice
+		"colors": [ ],
+		"color_space_tag": [
+			"pastell"
+		]
+	},
 	{
-	"title": "Lemon and Lime",
-	"description": "This juice is perfect",
-	"file": "food_drink_lemon_orange",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"lemon", 
-		"lime",
-		"juice",
-		"fruits",
-		"orange",
-		"food"
+		"title": "Lemon and Lime",
+		"description": "This juice is perfect",
+		"file": "food_drink_lemon_orange",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"lemon", 
+			"lime",
+			"juice",
+			"fruits",
+			"orange",
+			"food"
 		],
-	
-	"colors": [
-
-		],
-	"color_space_tag": [
-		"orange",
-		"yellow",
-		"warm"
-		],
-	}
-
-// Food Catering
+		"colors": [ ],
+		"color_space_tag": [
+			"orange",
+			"yellow",
+			"warm"
+		]
+	},
 	{
-	"title": "Catering for mylady",
-	"description": "Tasty little things",
-	"file": "food_catering_grapes_morsel",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"morsel", 
-		"cover",
-		"finger food",
-		"food"
+		"title": "Catering for mylady",
+		"description": "Tasty little things",
+		"file": "food_catering_grapes_morsel",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"morsel", 
+			"cover",
+			"finger food",
+			"food"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"turkis",
-		"petrol",
-		"dark"
-		],
-	}
-
-// Food Steak
+		"colors": [ ],
+		"color_space_tag": [
+			"turkis",
+			"petrol",
+			"dark"
+		]
+	},
 	{
-	"title": "Steaks for all",
-	"description": "Steak with garlic",
-	"file": "food_meat_garlic_pepper",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"steak", 
-		"meat",
-		"pepper",
-		"laurel",
-		"garlic",
-		"food"
+		"title": "Steaks for all",
+		"description": "Steak with garlic",
+		"file": "food_meat_garlic_pepper",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"steak", 
+			"meat",
+			"pepper",
+			"laurel",
+			"garlic",
+			"food"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue"
-		],
-	}
-// Food Vegtables
+		"colors": [ ],
+		"color_space_tag": [
+			"blue"
+		]
+	},
 	{
-	"title": "Cut all the vegtables",
-	"description": "Tomato and leek",
-	"file": "food_tomato_knife_vegtables",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"steak", 
-		"meat",
-		"pepper",
-		"laurel",
-		"garlic",
-		"food",
-		"wooden plate"
+		"title": "Cut all the vegtables",
+		"description": "Tomato and leek",
+		"file": "food_tomato_knife_vegtables",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"steak", 
+			"meat",
+			"pepper",
+			"laurel",
+			"garlic",
+			"food",
+			"wooden plate"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"red"
-		],
-	}
-
-// Gifts Flowers
+		"colors": [ ],
+		"color_space_tag": [
+			"red"
+		]
+	},
 	{
-	"title": "Flowers for you",
-	"description": "Flowers are beautiful gifts",
-	"file": "gifts_flower_rose",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"flower", 
-		"rose",
-		"plant",
-		"gift"
+		"title": "Flowers for you",
+		"description": "Flowers are beautiful gifts",
+		"file": "gifts_flower_rose",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"flower", 
+			"rose",
+			"plant",
+			"gift"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"turkis",
-		"petrol",
-		"dark"
-		],
-	}
-// Gifts Party
+		"colors": [ ],
+		"color_space_tag": [
+			"turkis",
+			"petrol",
+			"dark"
+		]
+	},
 	{
-	"title": "Lets Party",
-	"description": "Fun for everyone here",
-	"file": "gifts_party_wine_light",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"glass", 
-		"wine",
-		"party",
-		"gift",
-		"light"
+		"title": "Lets Party",
+		"description": "Fun for everyone here",
+		"file": "gifts_party_wine_light",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"glass", 
+			"wine",
+			"party",
+			"gift",
+			"light"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"turkis",
-		"petrol",
-		"dark"
-		],
-	}
-
-// Landscape autunm
+		"colors": [ ],
+		"color_space_tag": [
+			"turkis",
+			"petrol",
+			"dark"
+		]
+	},
 	{
-	"title": "Sit with me",
-	"description": "Autunm is beautiful",
-	"file": "landscape_autunm_tree_bench",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"fall", 
-		"autunm",
-		"tree",
-		"landscape",
-		"bench"
+		"title": "Sit with me",
+		"description": "Autunm is beautiful",
+		"file": "landscape_autunm_tree_bench",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"fall", 
+			"autunm",
+			"tree",
+			"landscape",
+			"bench"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"orange",
-		"yellow",
-		"warm",
-		"pastell"
-		],
-	}
-
-// Landscape beach
+		"colors": [ ],
+		"color_space_tag": [
+			"orange",
+			"yellow",
+			"warm",
+			"pastell"
+		]
+	},
 	{
-	"title": "The water looks good",
-	"description": "Sand, Water and Sun for us",
-	"file": "landscape_beach_sea",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"beach", 
-		"sand",
-		"sea",
-		"bush",
-		"landscape",
-		"horizon"
+		"title": "The water looks good",
+		"description": "Sand, Water and Sun for us",
+		"file": "landscape_beach_sea",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"beach", 
+			"sand",
+			"sea",
+			"bush",
+			"landscape",
+			"horizon"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue",
-		"yellow"
-		],
-	}
-// Landscape bridge
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"yellow"
+		]
+	},
 	{
-	"title": "Bridges building our world",
-	"description": "Build a bridge for us",
-	"file": "landscape_bridge",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"bridge", 
-		"sunset",
-		"landscape",
-		"plain"
+		"title": "Bridges building our world",
+		"description": "Build a bridge for us",
+		"file": "landscape_bridge",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"bridge", 
+			"sunset",
+			"landscape",
+			"plain"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"pink",
-		"red",
-		"purple"
-		],
-	}
-// Landscape Forest
+		"colors": [ ],
+		"color_space_tag": [
+			"pink",
+			"red",
+			"purple"
+		]
+	},
 	{
-	"title": "Forest",
-	"description": "Out in the forest and a loveley river",
-	"file": "landscape_forest_river",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"forest", 
-		"tree",
-		"river",
-		"stone",
-		"evergreen",
-		"landscape",
-		"grass"
+		"title": "Forest",
+		"description": "Out in the forest and a loveley river",
+		"file": "landscape_forest_river",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"forest", 
+			"tree",
+			"river",
+			"stone",
+			"evergreen",
+			"landscape",
+			"grass"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"green",
-		"blue",
-		"dark"
-		],
-	}
-// Landscape Mountain
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"blue",
+			"dark"
+		]
+	},
 	{
-	"title": "Trees and mountains",
-	"description": "Out in the forest and a loveley river",
-	"file": "landscape_mountain_forest",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"mountain", 
-		"tree",
-		"evergreen",
-		"landscape",
-		"sunset"
+		"title": "Trees and mountains",
+		"description": "Out in the forest and a loveley river",
+		"file": "landscape_mountain_forest",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"mountain", 
+			"tree",
+			"evergreen",
+			"landscape",
+			"sunset"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"green",
-		"blue",
-		"pink"
-		],
-	}
-
-// Landscape Mountain Night
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"blue",
+			"pink"
+		]
+	},
 	{
-	"title": "Night has fallen",
-	"description": "The stars sprinkle over the black mountains",
-	"file": "landscape_mountains_river_night",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"mountain", 
-		"river",
-		"star",
-		"stars",
-		"landscape",
-		"moon"
+		"title": "Night has fallen",
+		"description": "The stars sprinkle over the black mountains",
+		"file": "landscape_mountains_river_night",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"mountain", 
+			"river",
+			"star",
+			"stars",
+			"landscape",
+			"moon"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"green",
-		"blue",
-		"black",
-		"landscape",
-		"dark"
-		],
-	}
-
-// Landscape Hills
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"blue",
+			"black",
+			"landscape",
+			"dark"
+		]
+	},
 	{
-	"title": "On the hill",
-	"description": "A tree on a hill with grass",
-	"file": "landscape_tree_hill",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"hill", 
-		"grass",
-		"tree",
-		"arms",
-		"landscape",
-		"fog"
+		"title": "On the hill",
+		"description": "A tree on a hill with grass",
+		"file": "landscape_tree_hill",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"hill", 
+			"grass",
+			"tree",
+			"arms",
+			"landscape",
+			"fog"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"green",
-		"blue"
-		],
-	}
-
-// Landscape park
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"blue"
+		]
+	},
 	{
-	"title": "Park trees",
-	"description": "Green trees in a park",
-	"file": "landscape_tree_park",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"park", 
-		"grass",
-		"tree",
-		"landscape",
-		"arms"
+		"title": "Park trees",
+		"description": "Green trees in a park",
+		"file": "landscape_tree_park",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"park", 
+			"grass",
+			"tree",
+			"landscape",
+			"arms"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"green",
-		"yellow",
-		"dark"
-		],
-	}
-// Landscape Winter
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"yellow",
+			"dark"
+		]
+	},
 	{
-	"title": "Winter",
-	"description": "Evergreen and bushes",
-	"file": "landscape_winter_snow_tree",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"winter", 
-		"snow",
-		"tree",
-		"evergreen",
-		"berry",
-		"landscape",
-		"bush"
+		"title": "Winter",
+		"description": "Evergreen and bushes",
+		"file": "landscape_winter_snow_tree",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"winter", 
+			"snow",
+			"tree",
+			"evergreen",
+			"berry",
+			"landscape",
+			"bush"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue",
-		"green",
-		"pastell"
-		],
-	}
-// Space Asteroids
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"green",
+			"pastell"
+		]
+	},
 	{
-	"title": "Asteroids",
-	"description": "Asteroids everywhere",
-	"file": "space_asteroid",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"asteroid", 
-		"field",
-		"space",
-		"evergreen",
-		"berry",
-		"bush"
+		"title": "Asteroids",
+		"description": "Asteroids everywhere",
+		"file": "space_asteroid",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"asteroid", 
+			"field",
+			"space",
+			"evergreen",
+			"berry",
+			"bush"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"brown",
-		"green"
-		],
-	}
-
-]
-
-// Space Planets
+		"colors": [ ],
+		"color_space_tag": [
+			"brown",
+			"green"
+		]
+	},
 	{
-	"title": "Planetes",
-	"description": "A Planet and his Moon",
-	"file": "space_planet",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"moon", 
-		"planet",
-		"space"
+		"title": "Planetes",
+		"description": "A Planet and his Moon",
+		"file": "space_planet",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"moon", 
+			"planet",
+			"space"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"red",
-		"orange",
-		"green",
-		"purple"
-		],
-	}
-
-// Space Rocket
+		"colors": [ ],
+		"color_space_tag": [
+			"red",
+			"orange",
+			"green",
+			"purple"
+		]
+	},
 	{
-	"title": "Rocket",
-	"description": "a flying rocket",
-	"file": "space_rocket",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"rocket", 
-		"cloud",
-		"space",
-		"fly"
+		"title": "Rocket",
+		"description": "a flying rocket",
+		"file": "space_rocket",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"rocket", 
+			"cloud",
+			"space",
+			"fly"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"orange",
-		"white",
-		"brown"
-		],
-	}
-// Space Ship
+		"colors": [ ],
+		"color_space_tag": [
+			"orange",
+			"white",
+			"brown"
+		]
+	},
 	{
-	"title": "Mark 2",
-	"description": "Viper Mark 2",
-	"file": "space_rocket",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"ship", 
-		"vacuum",
-		"space",
-		"viper",
-		"battlestar",
-		"mark 2",
-		"fly",
-		"scifi",
-		"fighter"
+		"title": "Mark 2",
+		"description": "Viper Mark 2",
+		"file": "space_rocket",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"ship", 
+			"vacuum",
+			"space",
+			"viper",
+			"battlestar",
+			"mark 2",
+			"fly",
+			"scifi",
+			"fighter"
 		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"petrol",
-		"white",
-		"red",
-		"dark"
+		"colors": [ ],
+		"color_space_tag": [
+			"petrol",
+			"white",
+			"red",
+			"dark"
+		]
+	},
+	{
+		"title": "Racing bike",
+		"description": "On a beautiful day through a park",
+		"file": "sport_bike_racing",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"bike",
+			"racing",
+			"fence",
+			"sport",
+			"park"
 		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"white"
+		]
+	},
+	{
+		"title": "Running",
+		"description": "After work running",
+		"file": "sport_running_park",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"running",
+			"night",
+			"human",
+			"sport",
+			"park"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue"
+		]
+	},
+	{
+		"title": "Running",
+		"description": "After work running",
+		"file": "sport_running_park",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"winter",
+			"mountain",
+			"evergreen",
+			"ski",
+			"sport",
+			"skiing"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"red"
+		]
+	},
+	{
+		"title": "Swimming",
+		"description": "Swimming in the pool",
+		"file": "sport_swimming_race",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"pool",
+			"sport",
+			"swimming",
+			"indoor",
+			"racing"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"yellow"
+		]
+	},
+	{
+		"title": "Yoga",
+		"description": "Yoga every morning",
+		"file": "sport_yoga_morning",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"window",
+			"sport",
+			"indoor"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"orange",
+			"yellow"
+		]
 	}	
-
-// Sport Bike
-	{
-	"title": "Racing bike",
-	"description": "On a beautiful day through a park",
-	"file": "sport_bike_racing",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"bike",
-		"racing",
-		"fence",
-		"sport",
-		"park"],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue",
-		"white"
-		],
-	}	
-// Sport Running
-	{
-	"title": "Running",
-	"description": "After work running",
-	"file": "sport_running_park",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"running",
-		"night",
-		"human",
-		"sport",
-		"park"
-		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue"
-		],
-	}
-
-// Sport Skiing
-	{
-	"title": "Running",
-	"description": "After work running",
-	"file": "sport_running_park",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"winter",
-		"mountain",
-		"evergreen",
-		"ski",
-		"sport",
-		"skiing"
-		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue",
-		"red"
-		],
-	}	
-// Sport Swimming
-	{
-	"title": "Swimming",
-	"description": "Swimming in the pool",
-	"file": "sport_swimming_race",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"pool",
-		"sport",
-		"swimming",
-		"indoor",
-		"racing"
-		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"blue",
-		"yellow"
-		],
-	}	
-
-// Sport Swimming
-	{
-	"title": "Yoga",
-	"description": "Yoga every morning",
-	"file": "sport_yoga_morning",
-	"created": "",
-	"updated": "",
-	"tags": [
-		"window",
-		"sport",
-		"indoor"
-		],
-	
-	"colors": [
-
-	],
-	"color_space_tag": [
-		"orange",
-		"yellow"
-		],
-	}	
-
 ]
