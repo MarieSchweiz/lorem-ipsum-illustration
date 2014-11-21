@@ -4,7 +4,7 @@
 	{
 	"title": "Take me out",
 	"description": "Having good times together in the restaurant",
-	"filename": "activity_restaurant",
+	"file": "activity_restaurant",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -29,7 +29,7 @@
 	{
 	"title": "Cake time",
 	"description": "A piece of cake with coffee and milk",
-	"filename": "food_cake_coffee_cream",
+	"file": "food_cake_coffee_cream",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -49,7 +49,7 @@
 	{
 	"title": "Lemon and Lime",
 	"description": "This juice is perfect",
-	"filename": "food_drink_lemon_orange",
+	"file": "food_drink_lemon_orange",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -75,7 +75,7 @@
 	{
 	"title": "Catering for mylady",
 	"description": "Tasty little things",
-	"filename": "food_catering_grapes_morsel",
+	"file": "food_catering_grapes_morsel",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -99,7 +99,7 @@
 	{
 	"title": "Steaks for all",
 	"description": "Steak with garlic",
-	"filename": "food_meat_garlic_pepper",
+	"file": "food_meat_garlic_pepper",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -122,7 +122,7 @@
 	{
 	"title": "Cut all the vegtables",
 	"description": "Tomato and leek",
-	"filename": "food_tomato_knife_vegtables",
+	"file": "food_tomato_knife_vegtables",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -147,7 +147,7 @@
 	{
 	"title": "Flowers for you",
 	"description": "Flowers are beautiful gifts",
-	"filename": "gifts_flower_rose",
+	"file": "gifts_flower_rose",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -170,7 +170,7 @@
 	{
 	"title": "Lets Party",
 	"description": "Fun for everyone here",
-	"filename": "gifts_party_wine_light",
+	"file": "gifts_party_wine_light",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -195,7 +195,7 @@
 	{
 	"title": "Sit with me",
 	"description": "Autunm is beautiful",
-	"filename": "landscape_autunm_tree_bench",
+	"file": "landscape_autunm_tree_bench",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -221,7 +221,7 @@
 	{
 	"title": "The water looks good",
 	"description": "Sand, Water and Sun for us",
-	"filename": "landscape_beach_sea",
+	"file": "landscape_beach_sea",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -245,7 +245,7 @@
 	{
 	"title": "Bridges building our world",
 	"description": "Build a bridge for us",
-	"filename": "landscape_bridge",
+	"file": "landscape_bridge",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -268,7 +268,7 @@
 	{
 	"title": "Forest",
 	"description": "Out in the forest and a loveley river",
-	"filename": "landscape_forest_river",
+	"file": "landscape_forest_river",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -294,7 +294,7 @@
 	{
 	"title": "Trees and mountains",
 	"description": "Out in the forest and a loveley river",
-	"filename": "landscape_mountain_forest",
+	"file": "landscape_mountain_forest",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -319,7 +319,7 @@
 	{
 	"title": "Night has fallen",
 	"description": "The stars sprinkle over the black mountains",
-	"filename": "landscape_mountains_river_night",
+	"file": "landscape_mountains_river_night",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -347,7 +347,7 @@
 	{
 	"title": "On the hill",
 	"description": "A tree on a hill with grass",
-	"filename": "landscape_tree_hill",
+	"file": "landscape_tree_hill",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -372,7 +372,7 @@
 	{
 	"title": "Park trees",
 	"description": "Green trees in a park",
-	"filename": "landscape_tree_park",
+	"file": "landscape_tree_park",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -396,7 +396,7 @@
 	{
 	"title": "Winter",
 	"description": "Evergreen and bushes",
-	"filename": "landscape_winter_snow_tree",
+	"file": "landscape_winter_snow_tree",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -422,7 +422,7 @@
 	{
 	"title": "Asteroids",
 	"description": "Asteroids everywhere",
-	"filename": "space_asteroid",
+	"file": "space_asteroid",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -449,7 +449,7 @@
 	{
 	"title": "Planetes",
 	"description": "A Planet and his Moon",
-	"filename": "space_planet",
+	"file": "space_planet",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -473,7 +473,7 @@
 	{
 	"title": "Rocket",
 	"description": "a flying rocket",
-	"filename": "space_rocket",
+	"file": "space_rocket",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -496,7 +496,7 @@
 	{
 	"title": "Mark 2",
 	"description": "Viper Mark 2",
-	"filename": "space_rocket",
+	"file": "space_rocket",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -526,7 +526,7 @@
 	{
 	"title": "Racing bike",
 	"description": "On a beautiful day through a park",
-	"filename": "sport_bike_racing",
+	"file": "sport_bike_racing",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -548,7 +548,7 @@
 	{
 	"title": "Running",
 	"description": "After work running",
-	"filename": "sport_running_park",
+	"file": "sport_running_park",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -571,7 +571,7 @@
 	{
 	"title": "Running",
 	"description": "After work running",
-	"filename": "sport_running_park",
+	"file": "sport_running_park",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -595,7 +595,7 @@
 	{
 	"title": "Swimming",
 	"description": "Swimming in the pool",
-	"filename": "sport_swimming_race",
+	"file": "sport_swimming_race",
 	"created": "",
 	"updated": "",
 	"tags": [
@@ -619,7 +619,7 @@
 	{
 	"title": "Yoga",
 	"description": "Yoga every morning",
-	"filename": "sport_yoga_morning",
+	"file": "sport_yoga_morning",
 	"created": "",
 	"updated": "",
 	"tags": [
