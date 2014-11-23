@@ -425,6 +425,24 @@
 		]
 	},
 	{
+		"title": "Monster",
+		"description": "Flying monsters",
+		"file": "space_monster_360",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"ship", 
+			"monster",
+			"ufo",
+			"fly",
+			"alien"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"red"
+		]
+	},
+	{
 		"title": "Racing bike",
 		"description": "On a beautiful day through a park",
 		"file": "sport_bike_racing",
@@ -462,9 +480,9 @@
 		]
 	},
 	{
-		"title": "Running",
-		"description": "After work running",
-		"file": "sport_running_park",
+		"title": "Skiing",
+		"description": "Skiing in Winter",
+		"file": "sport_skiing_winter_mountain",
 		"created": "",
 		"updated": "",
 		"tags": [
