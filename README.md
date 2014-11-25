@@ -30,8 +30,11 @@ Activity:
 Space:
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-space-row.png">
 
+Office:
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-office-row.png">
 
-Planned: more Landscapes, Sports, Furniture, Office, Music.
+
+Planned: more Landscapes, Sports, Furniture, Music.
 
 Suggestions
 ==
