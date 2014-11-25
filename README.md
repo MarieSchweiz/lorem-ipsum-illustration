@@ -22,15 +22,19 @@ Sport: Bike, Swimming, Running, Yoga, Skiing
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-sport-row.png">
 
 Gifts: Wine, Flowers
+
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-gifts-row.png">
 
 Activity:
+
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-activity-row.png">
 
 Space:
+
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-space-row.png">
 
 Office:
+
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-office-row.png">
 
 
