@@ -37,6 +37,10 @@ Office:
 
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-office-row.png">
 
+Monster:
+
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-monster-row.png">
+
 
 Planned: more Landscapes, Sports, Furniture, Music.
 
