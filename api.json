@@ -550,5 +550,60 @@
 			"warm",
 			"yellow"
 		]
-	}	
+	},
+	{
+		"title": "chart",
+		"description": "chart and office plant",
+		"file": "office_chart_plant",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"office",
+			"plant",
+			"chart",
+			"statistic",
+			"arrow"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"grey",
+		]
+	},
+	{
+		"title": "Glue and clips",
+		"description": "Office suplies everyone needs ",
+		"file": "office_glue_tape_paperclip",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"office",
+			"clips",
+			"tape",
+			"glue",
+			"suplies"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"red",
+		]
+	},
+	{
+		"title": "Read a book",
+		"description": "Hand holding a blue book",
+		"file": "office_book_hand_holding",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"office",
+			"book",
+			"reading",
+			"paper",
+			"hand",
+			"arm"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+		]
+	},
 ]
