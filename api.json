@@ -5,8 +5,9 @@
 		"file": "activity_restaurant",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"restaurant", 
+			"restaurant",
 			"night",
 			"food",
 			"dinner",
@@ -25,8 +26,9 @@
 		"file": "food_cake_coffee_cream",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"cake", 
+			"cake",
 			"coffe",
 			"milk",
 			"food"
@@ -42,8 +44,9 @@
 		"file": "food_drink_lemon_orange",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"lemon", 
+			"lemon",
 			"lime",
 			"juice",
 			"fruits",
@@ -63,8 +66,9 @@
 		"file": "food_catering_grapes_morsel",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"morsel", 
+			"morsel",
 			"cover",
 			"finger food",
 			"food"
@@ -82,8 +86,9 @@
 		"file": "food_meat_garlic_pepper",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"steak", 
+			"steak",
 			"meat",
 			"pepper",
 			"laurel",
@@ -101,8 +106,9 @@
 		"file": "food_tomato_knife_vegtables",
 		"created": "",
 		"updated": "",
+		"category": "food",
 		"tags": [
-			"steak", 
+			"steak",
 			"meat",
 			"pepper",
 			"laurel",
@@ -121,8 +127,9 @@
 		"file": "gifts_flower_rose",
 		"created": "",
 		"updated": "",
+		"category": "gift",
 		"tags": [
-			"flower", 
+			"flower",
 			"rose",
 			"plant",
 			"gift"
@@ -140,8 +147,9 @@
 		"file": "gifts_party_wine_light",
 		"created": "",
 		"updated": "",
+		"category": "gift",
 		"tags": [
-			"glass", 
+			"glass",
 			"wine",
 			"party",
 			"gift",
@@ -160,8 +168,9 @@
 		"file": "landscape_autunm_tree_bench",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"fall", 
+			"fall",
 			"autunm",
 			"tree",
 			"landscape",
@@ -181,8 +190,9 @@
 		"file": "landscape_beach_sea",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"beach", 
+			"beach",
 			"sand",
 			"sea",
 			"bush",
@@ -201,8 +211,9 @@
 		"file": "landscape_bridge",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"bridge", 
+			"bridge",
 			"sunset",
 			"landscape",
 			"plain"
@@ -220,8 +231,9 @@
 		"file": "landscape_forest_river",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"forest", 
+			"forest",
 			"tree",
 			"river",
 			"stone",
@@ -242,8 +254,9 @@
 		"file": "landscape_mountain_forest",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"mountain", 
+			"mountain",
 			"tree",
 			"evergreen",
 			"landscape",
@@ -262,8 +275,9 @@
 		"file": "landscape_mountains_river_night",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"mountain", 
+			"mountain",
 			"river",
 			"star",
 			"stars",
@@ -275,7 +289,6 @@
 			"green",
 			"blue",
 			"black",
-			"landscape",
 			"dark"
 		]
 	},
@@ -285,8 +298,9 @@
 		"file": "landscape_tree_hill",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"hill", 
+			"hill",
 			"grass",
 			"tree",
 			"arms",
@@ -305,8 +319,9 @@
 		"file": "landscape_tree_park",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"park", 
+			"park",
 			"grass",
 			"tree",
 			"landscape",
@@ -325,8 +340,9 @@
 		"file": "landscape_winter_snow_tree",
 		"created": "",
 		"updated": "",
+		"category": "landscape",
 		"tags": [
-			"winter", 
+			"winter",
 			"snow",
 			"tree",
 			"evergreen",
@@ -347,8 +363,9 @@
 		"file": "space_asteroid",
 		"created": "",
 		"updated": "",
+		"category": "space",
 		"tags": [
-			"asteroid", 
+			"asteroid",
 			"field",
 			"space",
 			"evergreen",
@@ -367,8 +384,9 @@
 		"file": "space_planet",
 		"created": "",
 		"updated": "",
+		"category": "space",
 		"tags": [
-			"moon", 
+			"moon",
 			"planet",
 			"space"
 		],
@@ -386,8 +404,9 @@
 		"file": "space_rocket",
 		"created": "",
 		"updated": "",
+		"category": "space",
 		"tags": [
-			"rocket", 
+			"rocket",
 			"cloud",
 			"space",
 			"fly"
@@ -405,8 +424,9 @@
 		"file": "space_rocket",
 		"created": "",
 		"updated": "",
+		"category": "space",
 		"tags": [
-			"ship", 
+			"ship",
 			"vacuum",
 			"space",
 			"viper",
@@ -425,11 +445,31 @@
 		]
 	},
 	{
+		"title": "Monster",
+		"description": "Flying monsters",
+		"file": "space_monster",
+		"created": "",
+		"updated": "",
+		"category": "space",
+		"tags": [
+			"ship",
+			"monster",
+			"ufo",
+			"fly",
+			"alien"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"red"
+		]
+	},
+	{
 		"title": "Racing bike",
 		"description": "On a beautiful day through a park",
 		"file": "sport_bike_racing",
 		"created": "",
 		"updated": "",
+		"category": "sport",
 		"tags": [
 			"bike",
 			"racing",
@@ -449,6 +489,7 @@
 		"file": "sport_running_park",
 		"created": "",
 		"updated": "",
+		"category": "sport",
 		"tags": [
 			"running",
 			"night",
@@ -462,11 +503,12 @@
 		]
 	},
 	{
-		"title": "Running",
-		"description": "After work running",
-		"file": "sport_running_park",
+		"title": "Skiing",
+		"description": "Skiing in Winter",
+		"file": "sport_skiing_winter_mountain",
 		"created": "",
 		"updated": "",
+		"category": "sport",
 		"tags": [
 			"winter",
 			"mountain",
@@ -487,6 +529,7 @@
 		"file": "sport_swimming_race",
 		"created": "",
 		"updated": "",
+		"category": "sport",
 		"tags": [
 			"pool",
 			"sport",
@@ -506,6 +549,7 @@
 		"file": "sport_yoga_morning",
 		"created": "",
 		"updated": "",
+		"category": "sport",
 		"tags": [
 			"window",
 			"sport",
@@ -516,5 +560,5 @@
 			"orange",
 			"yellow"
 		]
-	}	
+	}
 ]
