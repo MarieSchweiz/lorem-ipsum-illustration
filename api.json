@@ -458,6 +458,23 @@
 		]
 	},
 	{
+		"title": "Spider",
+		"description": "The big suitcase spider and the small one",
+		"file": "monster_suitcase_spider",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"suitcase", 
+			"monster",
+			"spider",
+			"arachnoide"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue"
+		]
+	},
+	{
 		"title": "Racing bike",
 		"description": "On a beautiful day through a park",
 		"file": "sport_bike_racing",
@@ -605,5 +622,5 @@
 		"color_space_tag": [
 			"blue",
 		]
-	},
+	}
 ]
