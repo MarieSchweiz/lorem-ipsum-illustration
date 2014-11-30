@@ -70,7 +70,7 @@ $( function() {
   // init Isotope
   var $container = $('.isotope').isotope({
     itemSelector: '.element-item',
-    layoutMode: 'fitRows'
+    layoutMode: 'masonry'
   });
   // filter functions
   var filterFns = {
@@ -111,6 +111,10 @@ $( function() {
   $('.isotope').on( 'click', 'div', function() {
     var compid = '';
     var compid = this.id;
+
+    // change size of item by toggling gigante class
+    $( this ).toggleClass('selected');
+    $container.isotope('layout');
 
       $.each(illuraw, function(k,v) {
         if (v.file == compid)
