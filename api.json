@@ -33,7 +33,7 @@
 		],
 		"colors": [ ],
 		"color_space_tag": [
-			"pastell"
+			"light"
 		]
 	},
 	{
@@ -149,9 +149,7 @@
 		],
 		"colors": [ ],
 		"color_space_tag": [
-			"turkis",
-			"petrol",
-			"dark"
+			"pink"
 		]
 	},
 	{
@@ -172,7 +170,7 @@
 			"orange",
 			"yellow",
 			"warm",
-			"pastell"
+			"light"
 		]
 	},
 	{
@@ -192,7 +190,6 @@
 		"colors": [ ],
 		"color_space_tag": [
 			"blue",
-			"yellow"
 		]
 	},
 	{
@@ -232,7 +229,6 @@
 		"colors": [ ],
 		"color_space_tag": [
 			"green",
-			"blue",
 			"dark"
 		]
 	},
@@ -251,8 +247,7 @@
 		],
 		"colors": [ ],
 		"color_space_tag": [
-			"green",
-			"blue",
+			"petrol",
 			"pink"
 		]
 	},
@@ -274,7 +269,6 @@
 		"color_space_tag": [
 			"green",
 			"blue",
-			"black",
 			"landscape",
 			"dark"
 		]
@@ -336,9 +330,9 @@
 		],
 		"colors": [ ],
 		"color_space_tag": [
-			"blue",
+			"white",
 			"green",
-			"pastell"
+			"light"
 		]
 	},
 	{
@@ -376,7 +370,6 @@
 		"color_space_tag": [
 			"red",
 			"orange",
-			"green",
 			"purple"
 		]
 	},
@@ -396,13 +389,14 @@
 		"color_space_tag": [
 			"orange",
 			"white",
-			"brown"
+			"brown",
+			"warm"
 		]
 	},
 	{
 		"title": "Mark 2",
 		"description": "Viper Mark 2",
-		"file": "space_rocket",
+		"file": "space_ship",
 		"created": "",
 		"updated": "",
 		"tags": [
@@ -427,7 +421,7 @@
 	{
 		"title": "Monster",
 		"description": "Flying monsters",
-		"file": "space_monster_360",
+		"file": "space_monster",
 		"created": "",
 		"updated": "",
 		"tags": [
@@ -435,11 +429,32 @@
 			"monster",
 			"ufo",
 			"fly",
-			"alien"
+			"alien",
+			"space"
 		],
 		"colors": [ ],
 		"color_space_tag": [
 			"red"
+		]
+	},
+	{
+		"title": "The big eye",
+		"description": "Monster with one eye drops something",
+		"file": "monster_cyclop_eye",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"bridge", 
+			"monster",
+			"alien",
+			"eye",
+			"cyclop",
+			"space"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"green",
+			"petrol"
 		]
 	},
 	{
@@ -532,6 +547,7 @@
 		"colors": [ ],
 		"color_space_tag": [
 			"orange",
+			"warm",
 			"yellow"
 		]
 	}	
