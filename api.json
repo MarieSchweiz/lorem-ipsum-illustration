@@ -586,6 +586,25 @@
 		]
 	},
 	{
+		"title": "Rowing",
+		"description": "2 Sportsmen rowing in a boat",
+		"file": "sport_rowing_river_boat",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"boat",
+			"rowing",
+			"sport",
+			"river",
+			"outdoor"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"yellow"
+		]
+	},
+	{
 		"title": "chart",
 		"description": "chart and office plant",
 		"file": "office_chart_plant",
