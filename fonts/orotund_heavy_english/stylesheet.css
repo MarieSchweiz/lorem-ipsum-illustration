@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'orotundheavy';
+    src: url('Orotund-webfont.eot');
+    src: url('Orotund-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Orotund-webfont.woff') format('woff'),
+         url('Orotund-webfont.ttf') format('truetype'),
+         url('Orotund-webfont.svg#orotundheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
