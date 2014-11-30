@@ -12,23 +12,19 @@ function eliminateDuplicates(arr) {
     obj[arr[i]]=0;
   }
   for (i in obj) {
-
     out.push("<div class='button' data-filter='."+i+"'>"+i+"</div>");
-    //out.push("<button class='button' data-filter='."+i+"'>"+i+"</button>");
   }
   return out;
 }
-
-// jquery ready
-$( function() {
+$(function() {
   //access api - here our json file
-  $.getJSON( "api.json", function( data ) {
+  $.getJSON("api.json", function( data ) {
     illuraw = data;
     var items = [];
     var prefix = 'png/'
     var endfix = '_360.png';
     var selectorList = [];
-    var categoryList = [];
+//    var categoryList = [];
     var colourList = [];
 
   //crawl illustrations
@@ -36,10 +32,6 @@ $( function() {
       var tags = '';
       var colours = '';
       filename = this.file;
-
-      // create categorylist
-      category = this.category;
-      categoryList.push(category);
 
       // create taglist
       $.each(this.tags, function(k,v) {
@@ -57,7 +49,7 @@ $( function() {
       items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /></div>" );
     });
 
-    var filters = eliminateDuplicates(categoryList);
+    var filters = eliminateDuplicates(selectorList);
     var colourFilter = eliminateDuplicates(colourList);
 
     $('.isotope').append(items);
@@ -122,22 +114,9 @@ $( function() {
             $('#embedshare').empty();
             $('#embedshare').append('<h4>' +v.title+ '</h4>');
             $('#embedshare').append('<h5>' +v.description+ '</h5>');
-
-            $.each(v.tags, function(k,v) {
-              console.log(v);
-            });
-
-            $.each(v.color_space_tag, function(k,v) {
-              console.log(v);
-            });
-
-            console.log(v)}
-
+          }
 
     });
-
   });
-
-
 }
 });
