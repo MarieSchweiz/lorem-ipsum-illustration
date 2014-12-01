@@ -37,10 +37,6 @@ $( function() {
       var colours = '';
       filename = this.file;
 
-      // create categorylist
-      category = this.category;
-      categoryList.push(category);
-
       // create taglist
       $.each(this.tags, function(k,v) {
       selectorList.push(v);
@@ -57,7 +53,7 @@ $( function() {
       items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /></div>" );
     });
 
-    var filters = eliminateDuplicates(categoryList);
+    var filters = eliminateDuplicates(selectorList);
     var colourFilter = eliminateDuplicates(colourList);
 
     $('.isotope').append(items);
