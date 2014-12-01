@@ -20,6 +20,25 @@
 		]
 	},
 	{
+		"title": "Deer",
+		"description": "A deer walking through the snow",
+		"file": "animals_deer_snow_trees",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"deer", 
+			"animal",
+			"snow",
+			"winter",
+			"christmas"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"blue",
+			"light"
+		]
+	},
+	{
 		"title": "Cake time",
 		"description": "A piece of cake with coffee and milk",
 		"file": "food_cake_coffee_cream",
@@ -34,6 +53,25 @@
 		"colors": [ ],
 		"color_space_tag": [
 			"light"
+		]
+	},
+	{
+		"title": "Cookies",
+		"description": "Chrismas Cookies",
+		"file": "food_cookies_christmas",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"cookie", 
+			"vannillekipferl",
+			"spitzbuben",
+			"christmas"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"light",
+			"grey",
+			"white"
 		]
 	},
 	{
@@ -135,6 +173,26 @@
 		]
 	},
 	{
+		"title": "Christmas eve",
+		"description": "Gifts under the christmas tree",
+		"file": "gifts_tree_christmas",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"tree", 
+			"gift",
+			"balls",
+			"decoration",
+			"christmas"
+
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"yellow",
+			"green"
+		]
+	},
+	{
 		"title": "Lets Party",
 		"description": "Fun for everyone here",
 		"file": "gifts_party_wine_light",
@@ -171,6 +229,24 @@
 			"yellow",
 			"warm",
 			"light"
+		]
+	},
+	{
+		"title": "Evergreen",
+		"description": "Snow and evergreen trees",
+		"file": "landscape_evergreen_tree_chrismas",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"snow", 
+			"evergreen",
+			"tree",
+			"landscape",
+			"christmas"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"green"
 		]
 	},
 	{
