@@ -19,6 +19,34 @@ function eliminateDuplicates(arr) {
   return out;
 }
 
+function count(doublearr) {
+  weightedTags = [];
+  array_elements = doublearr;
+  array_elements.sort();
+
+  var current = null;
+  var cnt = 0;
+  for (var i = 0; i < array_elements.length; i++) {
+    if (array_elements[i] != current) {
+      if (cnt > 2) {
+      //  document.write(current + ' NO-comes --> ' + cnt + ' times<br>');
+      weightedTags.push(current);
+      }
+      current = array_elements[i];
+      cnt = 1;
+    } else {
+      cnt++;
+    }
+  }
+  if (cnt > 2) {
+   //document.write(current + ' YO-------comes --> ' + cnt + ' times');
+   weightedTags.push(current);
+  }
+
+return weightedTags;
+}
+
+
 // jquery ready
 $( function() {
   //access api - here our json file
@@ -52,6 +80,9 @@ $( function() {
       // add item to array - isotope content
       items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /></div>" );
     });
+
+    selectorList= count(selectorList);
+    //console.log(List);
 
     var filters = eliminateDuplicates(selectorList);
     var colourFilter = eliminateDuplicates(colourList);
