@@ -242,7 +242,8 @@
 			"evergreen",
 			"tree",
 			"landscape",
-			"christmas"
+			"christmas",
+			"winter"
 		],
 		"colors": [ ],
 		"color_space_tag": [
@@ -420,10 +421,7 @@
 		"tags": [
 			"asteroid", 
 			"field",
-			"space",
-			"evergreen",
-			"berry",
-			"bush"
+			"space"
 		],
 		"colors": [ ],
 		"color_space_tag": [
@@ -616,7 +614,8 @@
 			"evergreen",
 			"ski",
 			"sport",
-			"skiing"
+			"skiing",
+			"snow"
 		],
 		"colors": [ ],
 		"color_space_tag": [
