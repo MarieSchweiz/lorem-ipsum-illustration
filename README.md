@@ -13,6 +13,7 @@ Available illustrations
 
 Food: Cake, Catering, Drink, Herbs, Meat, Knife
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-food-row.png">
+<img src="https://dl.dropboxusercontent.com/u/1283627/readme-food2-row.png">
 
 Landscapes:  Hills, Stars, Mountains, Forest, Bridge, Beach
 <img src="https://dl.dropboxusercontent.com/u/1283627/readme-landscape-row.png">
