@@ -371,6 +371,26 @@
 		]
 	},
 	{
+		"title": "Christmas in the forest",
+		"description": "Wodden house in a forest with christmas decoration",
+		"file": "landscape_house_tree_chrismas",
+		"created": "",
+		"updated": "",
+		"tags": [
+			"forest", 
+			"tree",
+			"evergreen",
+			"house",
+			"landscape",
+			"christmas"
+		],
+		"colors": [ ],
+		"color_space_tag": [
+			"yellow",
+			"blue"
+		]
+	},	
+	{
 		"title": "Park trees",
 		"description": "Green trees in a park",
 		"file": "landscape_tree_park",
