@@ -1,5 +1,7 @@
 // vars
 var illuraw = '';
+var tagPalette = ["food", "landscape", "space", "sport", "office", "gifts"];
+var selectPalette = ["green", "red", "blue", "black", "petrol", "orange", "yellow"];
 
 // function that eliminates duplicates in a js-array
 function eliminateDuplicates(arr) {
@@ -14,7 +16,6 @@ function eliminateDuplicates(arr) {
   for (i in obj) {
 
     out.push("<div class='button' data-filter='."+i+"'>"+i+"</div>");
-    //out.push("<button class='button' data-filter='."+i+"'>"+i+"</button>");
   }
   return out;
 }
@@ -77,15 +78,15 @@ $( function() {
         colours += " "+v;
       });
 
+
       // add item to array - isotope content
       items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /></div>" );
     });
 
     selectorList= count(selectorList);
-    //console.log(List);
 
-    var filters = eliminateDuplicates(selectorList);
-    var colourFilter = eliminateDuplicates(colourList);
+    var filters = eliminateDuplicates(tagPalette);
+    var colourFilter = eliminateDuplicates(selectPalette);
 
     $('.isotope').append(items);
     $('#filters').append(filters);
