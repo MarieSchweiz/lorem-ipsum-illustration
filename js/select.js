@@ -80,7 +80,7 @@ $( function() {
 
 
       // add item to array - isotope content
-      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /></div>" );
+      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /><div class='transclass'<span class='dl'>DL</span><span class='dl'>360px</span><span class='dl'>1080px</span><span class='dl'>1980px</span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
 
     selectorList= count(selectorList);
@@ -99,6 +99,19 @@ $( function() {
     var $container = $('.isotope').isotope({
       itemSelector: '.element-item',
       layoutMode: 'masonry'
+      /*
+
+      TO DO: find out how to apply visible class to filteredelements
+
+      ,
+      hiddenClass: '.element-item.selected',
+      hiddenStyle: {
+        opacity: 0.5,
+        transform: 'scale(0.5)'
+      },
+      visibleStyle: {
+        opacity: 1
+      }*/
     });
     // filter functions
     var filterFns = {
@@ -145,6 +158,8 @@ $( function() {
 
       // change size of item by toggling gigante class
       $( this ).toggleClass('selected');
+      $( this ).find('.transclass').toggleClass('selected');
+    //  $( this ).append('');
       $container.isotope('layout');
 
       $.each(illuraw, function(k,v) {

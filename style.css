@@ -87,6 +87,28 @@ color: white;
   color: #262524;
 }
 
+.element-item .transclass {
+  position:absolute;
+  visibility:hidden;
+  bottom:0;
+  left:0;
+  background: rgba(255,255,255,.5);
+  z-index:-10;
+}
+
+.element-item .transclass.selected {
+  position:absolute;
+  visibility:visible;
+  bottom:0;
+  left:0;
+  height: 30px;
+  width: 100%;
+  font-size: 12px;
+  background: rgba(255,255,255,.5);
+  z-index:1;
+}
+
+
 .element-item.selected {
   position: relative;
   float: left;
