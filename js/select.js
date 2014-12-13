@@ -80,7 +80,7 @@ $( function() {
 
 
       // add item to array - isotope content
-      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='100px' width='100px' /><div class='transclass'<span class='dl'>DL</span><span class='dl'>360px</span><span class='dl'>1080px</span><span class='dl'>1980px</span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
+      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><i class='fa fa-arrow-down'></i><span class='dl'>DL</span><span class='dl'>360px</span><span class='dl'>1080px</span><span class='dl'>1980px</span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
 
     selectorList= count(selectorList);
@@ -98,7 +98,9 @@ $( function() {
     // init Isotope
     var $container = $('.isotope').isotope({
       itemSelector: '.element-item',
-      layoutMode: 'masonry'
+      masonry: {
+        columnWidth: 190
+      }
       /*
 
       TO DO: find out how to apply visible class to filteredelements
