@@ -1,6 +1,6 @@
 // vars
 var illuraw = '';
-var tagPalette = ["food", "landscape", "space", "sport", "office", "gifts"];
+var tagPalette = ["food", "landscape", "space", "sport", "office", "gift"];
 var selectPalette = ["green", "red", "blue", "black", "petrol", "orange", "yellow"];
 
 // function that eliminates duplicates in a js-array
@@ -30,8 +30,8 @@ function count(doublearr) {
   for (var i = 0; i < array_elements.length; i++) {
     if (array_elements[i] != current) {
       if (cnt > 2) {
-      //  document.write(current + ' NO-comes --> ' + cnt + ' times<br>');
-      weightedTags.push(current);
+        //  document.write(current + ' NO-comes --> ' + cnt + ' times<br>');
+        weightedTags.push(current);
       }
       current = array_elements[i];
       cnt = 1;
@@ -40,11 +40,11 @@ function count(doublearr) {
     }
   }
   if (cnt > 2) {
-   //document.write(current + ' YO-------comes --> ' + cnt + ' times');
-   weightedTags.push(current);
+    //document.write(current + ' YO-------comes --> ' + cnt + ' times');
+    weightedTags.push(current);
   }
 
-return weightedTags;
+  return weightedTags;
 }
 
 
@@ -60,16 +60,16 @@ $( function() {
     var categoryList = [];
     var colourList = [];
 
-  //crawl illustrations
-      $.each( data, function( key, val ) {
+    //crawl illustrations
+    $.each( data, function( key, val ) {
       var tags = '';
       var colours = '';
       filename = this.file;
 
       // create taglist
       $.each(this.tags, function(k,v) {
-      selectorList.push(v);
-      tags += " "+v;
+        selectorList.push(v);
+        tags += " "+v;
       });
 
       // create colourlist
@@ -95,54 +95,57 @@ $( function() {
   });
 
   function isotope(){
-  // init Isotope
-  var $container = $('.isotope').isotope({
-    itemSelector: '.element-item',
-    layoutMode: 'masonry'
-  });
-  // filter functions
-  var filterFns = {
-    // show if number is greater than 50
-    numberGreaterThan50: function() {
-      var number = $(this).find('.number').text();
-      return parseInt( number, 10 ) > 50;
-    },
-    // show if name ends with -ium
-    ium: function() {
-      var name = $(this).find('.name').text();
-      return name.match( /ium$/ );
-    }
-  };
-  // bind filter button click
-  $('#filters').on( 'click', 'div', function() {
-    var filterValue = $( this ).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterFns[ filterValue ] || filterValue;
-    $container.isotope({ filter: filterValue });
-  });
-  $('#colours').on( 'click', 'div', function() {
-    var filterValue = $( this ).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterFns[ filterValue ] || filterValue;
-    $container.isotope({ filter: filterValue });
-  });
-  // change is-checked class on buttons
-  $('.button-group').each( function( i, buttonGroup ) {
-    var $buttonGroup = $( buttonGroup );
-    $buttonGroup.on( 'click', 'div', function() {
-      $buttonGroup.find('.is-checked').removeClass('is-checked');
-      $( this ).addClass('is-checked');
+    // init Isotope
+    var $container = $('.isotope').isotope({
+      itemSelector: '.element-item',
+      layoutMode: 'masonry'
     });
-  });
+    // filter functions
+    var filterFns = {
+      // show if number is greater than 50
+      numberGreaterThan50: function() {
+        var number = $(this).find('.number').text();
+        return parseInt( number, 10 ) > 50;
+      },
+      // show if name ends with -ium
+      ium: function() {
+        var name = $(this).find('.name').text();
+        return name.match( /ium$/ );
+      }
+    };
+    // bind filter button click
+    $('#filters').on( 'click', 'div', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $container.isotope({ filter: filterValue });
+    });
+    $('#colours').on( 'click', 'div', function() {
+      var filterValue = $( this ).attr('data-filter');
+      // use filterFn if matches value
+      filterValue = filterFns[ filterValue ] || filterValue;
+      $container.isotope({ filter: filterValue });
+    });
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+      var $buttonGroup = $( buttonGroup );
+      $buttonGroup.on( 'click', 'div', function() {
+        // to do: dynamification.
+        $('#filters').find('.is-checked').removeClass('is-checked');
+        $('#colours').find('.is-checked').removeClass('is-checked');
+        //$buttonGroup.find('.is-checked').removeClass('is-checked');
+        $( this ).addClass('is-checked');
+      });
+    });
 
 
-  $('.isotope').on( 'click', 'div', function() {
-    var compid = '';
-    var compid = this.id;
+    $('.isotope').on( 'click', 'div', function() {
+      var compid = '';
+      var compid = this.id;
 
-    // change size of item by toggling gigante class
-    $( this ).toggleClass('selected');
-    $container.isotope('layout');
+      // change size of item by toggling gigante class
+      $( this ).toggleClass('selected');
+      $container.isotope('layout');
 
       $.each(illuraw, function(k,v) {
         if (v.file == compid)
@@ -162,10 +165,10 @@ $( function() {
             console.log(v)}
 
 
+          });
+
+        });
+
+
+      }
     });
-
-  });
-
-
-}
-});
