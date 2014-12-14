@@ -104,9 +104,20 @@ color: white;
   left:0;
   height: 60px;
   width: 100%;
+  line-height: 40px;
+  text-align: center;
   font-size: 12px;
   background: rgba(255,255,255,.5);
   z-index:1;
+  margin: auto;
+}
+
+.element-item .transclass.selected .dl{
+  display:block;
+  float:left;
+  width:53px;
+  text-align: center;
+  margin: auto;
 }
 
 
