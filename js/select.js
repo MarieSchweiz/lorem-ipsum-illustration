@@ -54,8 +54,10 @@ $( function() {
   $.getJSON( "api.json", function( data ) {
     illuraw = data;
     var items = [];
-    var prefix = 'png/'
+    var prefix = 'png/';
     var endfix = '_360.png';
+    var endfix1080 = '_1080.png';
+    var endfix1980 = '_1980.png';
     var selectorList = [];
     var categoryList = [];
     var colourList = [];
@@ -80,7 +82,7 @@ $( function() {
 
 
       // add item to array - isotope content
-      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'>360px</span><span class='dl'>1080px</span><span class='dl'>1980px</span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
+      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
 
     selectorList= count(selectorList);
@@ -154,7 +156,7 @@ $( function() {
     });
 
 
-    $('.isotope').on( 'click', 'div', function() {
+    $('.isotope').on( 'click', '.element-item', function() {
       var compid = '';
       var compid = this.id;
 
