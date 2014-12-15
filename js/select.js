@@ -82,7 +82,7 @@ $( function() {
 
 
       // add item to array - isotope content
-      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
+      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"' download='"+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"' download='"+filename+endfix+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"' download='"+filename+endfix+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
 
     selectorList= count(selectorList);
@@ -186,6 +186,10 @@ $( function() {
 
           });
 
+        });
+        // dont expose click event on div overlay
+        $(".transclass").click(function(e) {
+          e.stopPropagation();
         });
 
 

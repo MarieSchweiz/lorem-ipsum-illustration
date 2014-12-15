@@ -96,6 +96,14 @@ color: white;
   z-index:-10;
 }
 
+.element-item .transclass a {
+  color: #262524;
+}
+
+.element-item .transclass a:hover {
+  color: #262524;
+}
+
 .element-item .transclass.selected {
   position:absolute;
   visibility:visible;
