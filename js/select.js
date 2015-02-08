@@ -152,6 +152,7 @@ $( function() {
         $('#colours').find('.is-checked').removeClass('is-checked');
         //$buttonGroup.find('.is-checked').removeClass('is-checked');
         $( this ).addClass('is-checked');
+        $('#package').empty().append("Download ZIP - " + $(this).text());
       });
     });
 
@@ -169,9 +170,9 @@ $( function() {
       $.each(illuraw, function(k,v) {
         if (v.file == compid)
           {
-            $('#embedshare').empty();
-            $('#embedshare').append('<h4>' +v.title+ '</h4>');
-            $('#embedshare').append('<h5>' +v.description+ '</h5>');
+            //$('#embedshare').empty();
+            //$('#embedshare').append('<h4>' +v.title+ '</h4>');
+            //$('#embedshare').append('<h5>' +v.description+ '</h5>');
 
             $.each(v.tags, function(k,v) {
               console.log(v);
