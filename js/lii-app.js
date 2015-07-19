@@ -1,6 +1,6 @@
 var SourSoundApp = angular.module('LoremIpsumIllustration', [
 'ngRoute',
-'timelineControllers',
+'LiiControllers',
 'ngMessages',
 //'routeStyles',
 //'skillsrender.directive',
