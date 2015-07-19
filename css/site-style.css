@@ -168,7 +168,7 @@ h1
   height: 100%;
 }
 
-a{
+a, a:visited, a:active{
   color:#666;
   text-decoration:none;
 }

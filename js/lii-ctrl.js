@@ -10,6 +10,8 @@ var LiiControllers = angular.module('LiiControllers', []);
 LiiControllers.value('project', {
   name: 'lorem ipsum illustration',
   author: 'Marie Schweiz',
+  authorwebsite: 'http://marie-schweiz.de/',
+  repourl: 'https://github.com/MarieSchweiz/lorem-ipsum-illustration',
   infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on '
 });
 
