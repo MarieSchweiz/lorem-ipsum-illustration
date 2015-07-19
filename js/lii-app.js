@@ -15,11 +15,7 @@ function($routeProvider) {
     templateUrl: 'views/home.html',
     controller: 'HomeCtrl'
   }).
-  when('/material', {
-    templateUrl: 'views/material.html',
-    controller: 'MaterialCtrl'
-  }).
-  when('/project', {
+ when('/project', {
     templateUrl: 'views/project.html',
     controller: 'ProjectCtrl'
   }).
