@@ -25,7 +25,7 @@ body {
   border-bottom: solid 1px; #ffffff;
 
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -155,10 +155,10 @@ color: white;
 }
 
 h1
-{ font-size: 48px;
+{ font-size: 60px;
   font-family: 'orotundheavy';
   color: white;
-  margin-bottom: 60px;}
+  margin-bottom: 72px;}
 
 #embedshare{
   background-color: black;

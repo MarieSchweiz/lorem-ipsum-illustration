@@ -24,11 +24,7 @@ function($scope, $location, project) {
 LiiControllers.controller('MaterialCtrl', ['$scope', '$routeParams', '$location', 'user',
 function($scope, $routeParams, $location, user) {
 
-  $scope.project = {
-    title: 'SourSound'
-  };
-  $scope.uservalue = '';
-  $scope.user = {name: user.name};
+  $scope.project = project;
 
   SourSound.getUser(user.id)
   .then(
@@ -38,26 +34,7 @@ function($scope, $routeParams, $location, user) {
   );
 
 
-  $scope.test = function() {
 
-    url = 'http://soundcloud.com/' + $scope.user.name;
-    user.name = $scope.user.name;
-
-    var resolveId = 0;
-
-    SourSound.resolve(url)
-    .then(
-    function( resp ) {
-          user.id = resp.id;
-          SourSound.getUser(resp.id)
-          .then(
-                function( friends ) {
-                  $scope.uservalue = friends;
-                }
-              );
-
-    });
-    };
 }]);
 
 LiiControllers.controller('ProjectCtrl', ['$scope', '$routeParams', '$location', 'user',
