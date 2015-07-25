@@ -15,8 +15,8 @@ LiiControllers.value('project', {
   infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on '
 });
 
-LiiControllers.controller('HomeCtrl', ['$scope', '$location', 'project',
-function($scope, $location, project) {
+LiiControllers.controller('HomeCtrl', ['$scope', '$location', '$http', 'project',
+function($scope, $location, $http, project) {
 
   $scope.project = project;
 
@@ -69,54 +69,54 @@ function($scope, $location, project) {
     return weightedTags;
   }
 
+  $http.get('api.json').
+    success(function(data, status, headers, config) {
+    illuraw = data;
+    var items = [];
+    var prefix = 'png/';
+    var endfix = '_360.png';
+    var endfix1080 = '_1080.png';
+    var endfix1980 = '_1980.png';
+    var selectorList = [];
+    var categoryList = [];
+    var colourList = [];
 
-  // jquery ready
-  $( function() {
-    //access api - here our json file
-    $.getJSON( "api.json", function( data ) {
-      illuraw = data;
-      var items = [];
-      var prefix = 'png/';
-      var endfix = '_360.png';
-      var endfix1080 = '_1080.png';
-      var endfix1980 = '_1980.png';
-      var selectorList = [];
-      var categoryList = [];
-      var colourList = [];
+    //crawl illustrations
+    $.each( data, function( key, val ) {
+      var tags = '';
+      var colours = '';
+      filename = this.file;
 
-      //crawl illustrations
-      $.each( data, function( key, val ) {
-        var tags = '';
-        var colours = '';
-        filename = this.file;
-
-        // create taglist
-        $.each(this.tags, function(k,v) {
-          selectorList.push(v);
-          tags += " "+v;
-        });
-
-        // create colourlist
-        $.each(this.color_space_tag, function(k,v) {
-          colourList.push(v);
-          colours += " "+v;
-        });
-
-
-        // add item to array - isotope content
-        items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"' download='"+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"' download='"+filename+endfix+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"' download='"+filename+endfix+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
+      // create taglist
+      $.each(this.tags, function(k,v) {
+        selectorList.push(v);
+        tags += " "+v;
       });
 
-      selectorList= count(selectorList);
+      // create colourlist
+      $.each(this.color_space_tag, function(k,v) {
+        colourList.push(v);
+        colours += " "+v;
+      });
 
-      var filters = eliminateDuplicates(tagPalette);
-      var colourFilter = eliminateDuplicates(selectPalette);
 
-      $('.isotope').append(items);
-      $('#filters').append(filters);
-      $('#colours').append(colourFilter);
-      isotope();
+      // add item to array - isotope content
+      items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"' download='"+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"' download='"+filename+endfix+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"' download='"+filename+endfix+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
+
+    selectorList= count(selectorList);
+
+    var filters = eliminateDuplicates(tagPalette);
+    var colourFilter = eliminateDuplicates(selectPalette);
+
+    $('.isotope').append(items);
+    $('#filters').append(filters);
+    $('#colours').append(colourFilter);
+    isotope();
+  }).
+  error(function(data, status, headers, config) {
+  console.log('http error');
+  });
 
     function isotope(){
       // init Isotope
@@ -126,9 +126,7 @@ function($scope, $location, project) {
           columnWidth: 190
         }
         /*
-
         TO DO: find out how to apply visible class to filteredelements
-
         ,
         hiddenClass: '.element-item.selected',
         hiddenStyle: {
@@ -217,11 +215,6 @@ function($scope, $location, project) {
 
 
         }
-      });
-
-
-
-
 }
 ]);
 
