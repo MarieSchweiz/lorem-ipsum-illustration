@@ -87,12 +87,21 @@ function($scope, $location, $http, project) {
       var colours = '';
       filename = this.file;
 
+      /*
+    angular.forEach(this.tags, function(k, v) {
+        console.log(k, v);
+        selectorList.push(v);
+        tags += " "+v;
+      });
+      */
+
       // create taglist
+
       $.each(this.tags, function(k,v) {
         selectorList.push(v);
         tags += " "+v;
       });
-
+      
       // create colourlist
       $.each(this.color_space_tag, function(k,v) {
         colourList.push(v);
@@ -104,7 +113,7 @@ function($scope, $location, $http, project) {
       items.push( "<div id="+filename+" class='element-item"+tags+colours+"'><img src='"+prefix+filename+endfix+"' height='180px' width='180px' /><div class='transclass'><span class='dl'><i class='fa fa-arrow-down'></i></span><span class='dl'><a href='"+prefix+filename+endfix+"' download='"+filename+endfix+"'>360px</a></span><span class='dl'><a href='"+prefix+filename+endfix1080+"' download='"+filename+endfix+"'>1080px</a></span><span class='dl'><a href='"+prefix+filename+endfix1980+"' download='"+filename+endfix+"'>1980px</a></span><span class='dl'>svg</span><span class='dl'>.ai</span></div></div>" );
     });
 
-    selectorList= count(selectorList);
+  selectorList= count(selectorList);
 
   var filters = eliminateDuplicates($scope.project.tagPalette);
   var colourFilter = eliminateDuplicates($scope.project.selectPalette);
