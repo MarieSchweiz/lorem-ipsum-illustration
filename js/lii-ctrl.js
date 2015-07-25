@@ -6,13 +6,15 @@
 
 var LiiControllers = angular.module('LiiControllers', []);
 
-// example user
+// project details
 LiiControllers.value('project', {
   name: 'lorem ipsum illustration',
   author: 'Marie Schweiz',
   authorwebsite: 'http://marie-schweiz.de/',
   repourl: 'https://github.com/MarieSchweiz/lorem-ipsum-illustration',
-  infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on '
+  infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on ',
+  tagPalette: ["food", "landscape", "space", "sport", "office", "gift"],
+  selectPalette: ["green", "red", "blue", "black", "petrol", "orange", "yellow"]
 });
 
 LiiControllers.controller('HomeCtrl', ['$scope', '$location', '$http', 'project',
@@ -22,8 +24,6 @@ function($scope, $location, $http, project) {
 
   // vars
   var illuraw = '';
-  var tagPalette = ["food", "landscape", "space", "sport", "office", "gift"];
-  var selectPalette = ["green", "red", "blue", "black", "petrol", "orange", "yellow"];
 
   // function that eliminates duplicates in a js-array
   function eliminateDuplicates(arr) {
@@ -106,8 +106,8 @@ function($scope, $location, $http, project) {
 
     selectorList= count(selectorList);
 
-    var filters = eliminateDuplicates(tagPalette);
-    var colourFilter = eliminateDuplicates(selectPalette);
+  var filters = eliminateDuplicates($scope.project.tagPalette);
+  var colourFilter = eliminateDuplicates($scope.project.selectPalette);
 
     $('.isotope').append(items);
     $('#filters').append(filters);
