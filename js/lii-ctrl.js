@@ -12,7 +12,7 @@ LiiControllers.value('project', {
   author: 'Marie Schweiz',
   authorwebsite: 'http://marie-schweiz.de/',
   coder: 'Erik Woitschig',
-  coderwebsite: 'http//bnz-power.com',
+  coderwebsite: 'http://bnz-power.com',
   repourl: 'https://github.com/MarieSchweiz/lorem-ipsum-illustration',
   infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on ',
   tagPalette: ["food", "landscape", "space", "sport", "office", "gift"],
