@@ -11,6 +11,8 @@ LiiControllers.value('project', {
   name: 'lorem ipsum illustration',
   author: 'Marie Schweiz',
   authorwebsite: 'http://marie-schweiz.de/',
+  coder: 'Erik Woitschig',
+  coderwebsite: 'http//bnz-power.com',
   repourl: 'https://github.com/MarieSchweiz/lorem-ipsum-illustration',
   infotext: 'this project is licenced unter the MIT 2.0 licence and launched on Nov. 11. on ',
   tagPalette: ["food", "landscape", "space", "sport", "office", "gift"],
@@ -101,7 +103,7 @@ function($scope, $location, $http, project) {
         selectorList.push(v);
         tags += " "+v;
       });
-      
+
       // create colourlist
       $.each(this.color_space_tag, function(k,v) {
         colourList.push(v);
